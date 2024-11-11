@@ -1,13 +1,13 @@
 package lesson5.task2;
 
 class Rectangle implements Shape {
-    private int width;
-    private int height;
+    private double width;
+    private double height;
 
     private String fillColor;
     private String borderColor;
 
-    public Rectangle(int width, int height, String fillColor, String borderColor) {
+    public Rectangle(double width, double height, String fillColor, String borderColor) {
         this.width = width;
         this.height = height;
         this.fillColor = fillColor;

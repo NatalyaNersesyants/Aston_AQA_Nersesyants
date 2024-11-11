@@ -1,7 +1,7 @@
 package lesson5.task2;
 
 class Circle implements Shape {
-    private int radius;
+    private double radius;
 
     private String fillColor;
     private String borderColor;
